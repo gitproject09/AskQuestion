@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.sopan.navigationdemo.navigation.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_tags"
+        android:name="com.sopan.navigationdemo.navigation.TagFragment"
+        android:label="@string/menu_tags"
+        tools:layout="@layout/fragment_tags" />
+
+    <fragment
+        android:id="@+id/nav_archives"
+        android:name="com.sopan.navigationdemo.navigation.ArchiveFragment"
+        android:label="@string/menu_archives"
+        tools:layout="@layout/fragment_tags" />
+
+    <fragment
+        android:id="@+id/nav_top_answerer"
+        android:name="com.sopan.navigationdemo.navigation.TopAnswererFragment"
+        android:label="@string/menu_top_answerer"
+        tools:layout="@layout/fragment_top_answerer" />
+
+    <fragment
+        android:id="@+id/nav_students"
+        android:name="com.sopan.navigationdemo.navigation.StudentsFragment"
+        android:label="@string/menu_students"
+        tools:layout="@layout/fragment_students" />
+
+    <fragment
+        android:id="@+id/nav_ask_noti"
+        android:name="com.sopan.navigationdemo.navigation.NotificationsFragment"
+        android:label="@string/menu_ask_noti"
+        tools:layout="@layout/fragment_ask_notifications" />
+
+    <fragment
+        android:id="@+id/nav_ask_t_n_c"
+        android:name="com.sopan.navigationdemo.navigation.TermsConditionsFragment"
+        android:label="@string/menu_ask_t_n_c"
+        tools:layout="@layout/fragment_ask_t_n_c" />
+
+    <fragment
+        android:id="@+id/nav_ask_profile"
+        android:name="com.sopan.navigationdemo.navigation.ProfileAskFragment"
+        android:label="@string/menu_ask_profile"
+        tools:layout="@layout/fragment_ask_profile" />
+</navigation>

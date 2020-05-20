@@ -1,0 +1,57 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:gravity="bottom"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvTagTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:maxLines="2"
+            android:text="TAG"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvQuestionNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTagTitle"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="No. of Questions : 1"
+            android:textAlignment="center"
+            android:textColor="@color/black_tint"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvSeeQuestions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvQuestionNo"
+            android:layout_marginBottom="8dp"
+            android:background="@color/color_grey_low_light"
+            android:padding="10dp"
+            android:text="See Questions"
+            android:textAlignment="center"
+            android:textColor="#1085E2"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

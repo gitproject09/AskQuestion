@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="2dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/post_title"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="5"
+        android:textStyle="bold"
+        tools:text="My First Post" />
+
+    <TextView
+        android:id="@+id/post_created"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        style="@style/TextAppearance.AppCompat.Small"
+        android:maxLines="3"
+        android:textColor="@color/post_created_color"
+        tools:text="This is my First Question..." />
+
+    <TextView
+        android:id="@+id/post_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:maxLines="5"
+        tools:text="This is my First Question..." />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#6DBCD6"
+        android:layout_height="1dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/post_answered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@android:color/holo_green_dark"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="1dp"
+            android:maxLines="1"
+            tools:text="Answered" />
+
+        <TextView
+            android:id="@+id/post_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:drawablePadding="5dp"
+            android:layout_toStartOf="@id/post_share"
+            android:drawableStart="@android:drawable/stat_notify_chat"
+            android:background="@android:color/darker_gray"
+            android:layout_marginEnd="20dp"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="1dp"
+            android:maxLines="1" />
+
+        <ImageView
+            android:id="@+id/post_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:src="@android:drawable/ic_menu_share" />
+
+    </RelativeLayout>
+
+</LinearLayout>

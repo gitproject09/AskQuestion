@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">AskQuestion</string>
+
+    <string name="title_home">Latest</string>
+    <string name="title_dashboard">Not Answered</string>
+    <string name="title_notifications">Most Popular</string>
+
+    <string name="title_activity_ask_navigation">AskNavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Supernova User</string>
+    <string name="nav_header_subtitle">supernova.user@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_search">Search</string>
+    <string name="action_ask">Ask A Question</string>
+
+    <string name="menu_item_privacy">Privacy</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_tags">Tags</string>
+    <string name="menu_archives">Archives</string>
+    <string name="menu_top_answerer">Top Answerer</string>
+    <string name="menu_students">Students</string>
+    <string name="menu_ask_noti">Notifications</string>
+    <string name="menu_ask_t_n_c">Terms &amp; Conditions</string>
+    <string name="menu_ask_profile">Profile</string>
+
+</resources>

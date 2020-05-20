@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_latest_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_tags"
+            android:icon="@drawable/ic_not_ans_black_24dp"
+            android:title="@string/menu_tags" />
+
+        <item
+            android:id="@+id/nav_archives"
+            android:icon="@drawable/ic_menu_students"
+            android:title="@string/menu_archives" />
+
+        <item
+            android:id="@+id/nav_top_answerer"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="@string/menu_top_answerer" />
+
+        <item
+            android:id="@+id/nav_ask_noti"
+            android:icon="@drawable/ic_most_popular_black_24dp"
+            android:title="@string/menu_ask_noti" />
+
+        <item
+            android:id="@+id/nav_students"
+            android:icon="@drawable/ic_menu_terms_conditions"
+            android:title="@string/menu_students" />
+
+        <item
+            android:id="@+id/nav_ask_profile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="@string/menu_ask_profile" />
+    </group>
+
+    <item android:title="@string/menu_item_privacy">
+        <menu>
+            <item
+                android:id="@+id/nav_ask_t_n_c"
+                android:icon="@drawable/ic_menu_students"
+                android:title="@string/menu_ask_t_n_c" />
+        </menu>
+    </item>
+
+</menu>
